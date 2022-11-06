@@ -1,0 +1,29 @@
+.app__sidebar {
+    width: 321px;
+    border-right: 2px solid black;
+    height: calc(100vh - 65px);
+    position: fixed;
+    font-size: 20px;
+}
+
+.app__sidebar svg {
+    font-size: 27px;
+    margin-right: 0.6em;
+}
+
+.app__sidebar-menu {
+    margin-top: 3rem;
+}
+
+.app__sidebar-menu li {
+    padding: 1.5rem 3rem;
+    list-style: none;
+    display: flex;
+    align-items: center;
+
+    cursor: pointer;
+}
+
+.app__sidebar-menu li:hover {
+    background-color: rgb(218, 216, 209);
+}

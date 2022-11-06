@@ -1,0 +1,21 @@
+.home__explore {
+    margin-left: 10rem;
+    margin-top: 5vh;
+    font-size: 20px;
+}
+
+.home__explore-items {
+    margin: 1em 0 0 2em;
+}
+
+.home__explore-items li {
+    margin: 1em 0;
+    width: fit-content;
+
+    cursor: pointer;
+}
+
+.home__explore-items li:hover {
+    border-bottom: 1px solid black;
+    font-style: italic;
+}
