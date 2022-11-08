@@ -1,0 +1,65 @@
+.taskpage_task {
+    display: flex;
+    flex-direction: column;
+    height: fit-content;
+}
+
+.task__maininfo {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1em;
+}
+
+
+.task__maininfo-radiobtn {
+    margin-right: 3em;
+}
+
+.task__maininfo-title {
+    flex: 1;
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.task__maininfo-menu {
+    display: flex;
+    align-items: center;
+}
+
+.task__maininfo-menu svg {
+    font-size: 33px;
+    margin-left: 0.4em;
+    transition: all 0.2s ease;
+
+    cursor: pointer;
+}
+
+.task__maininfo-menu svg:hover {
+    transform: scale(1.1);
+}
+
+.task__subinfo {
+    display: flex;
+    font-size: 17px;
+}
+
+.task__subinfo {
+    display: flex;
+    justify-content: flex-end;
+    border-bottom: 1px solid black;
+    padding-bottom: 1rem;
+    margin-bottom: 2em;
+}
+
+.task__subinfo span {
+    margin: 0 0.4em;
+}
+
+.task__subinfo-day {
+    display: flex;
+    align-items: center;
+}
+
+.task__subinfo-day svg {
+    margin-right: 0.3em;
+}

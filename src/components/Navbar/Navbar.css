@@ -15,7 +15,13 @@
 .navbar-homelogo {
     font-size: 30px;
     margin-right: 2rem;
+    transition: all 1s ease;
+
     cursor: pointer;
+}
+
+.navbar-homelogo:hover {
+    transform: rotate(18000deg);
 }
 
 .navbar-search {

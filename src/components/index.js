@@ -5,9 +5,13 @@ import Sidebar from "./Sidebar/Sidebar";
 import Header from "./Home/Header/Header";
 import Explore from "./Home/Explore/Explore";
 
+// Task
+import Task from "./Task/Task";
+
 export {
     Navbar,
     Sidebar,
     Header,
-    Explore
+    Explore,
+    Task
 }
